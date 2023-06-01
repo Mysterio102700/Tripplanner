@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+.searchbar .container {
+  position: relative;
+  width: 30%;
+}
+
+.main {
+    width: 100%;
+    font-size: 18px;
+    height: 60px;
+    line-height: 36px;
+    padding-left: 42px;
+    margin-top: 5%;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    outline: none;
+    box-sizing: border-box;
+    transition: 0.5s;
+
+  }
+  .main:focus {
+    outline: none;
+  }
+
+  .fa-search{
+    position: relative;
+    bottom: 2.5rem;
+    left: 1rem;
+  }
